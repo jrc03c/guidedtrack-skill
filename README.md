@@ -25,6 +25,6 @@ To load the skill, simply mention "GuidedTrack" in conversation with Claude, or 
 
 # Roadmap
 
-Features we'd like to include in the future:
+Features we'd like to add in the future include:
 
-- We'd ideally like to cut out the browser "middle-man" and instead issue HTTP requests directly to [guidedtrack.com](https://guidedtrack.com) to edit and manage programs, download CSV files, modify service settings, etc.
+- **Web requests:** We'd ideally like to cut out the browser "middle-man" and instead issue HTTP requests directly to [guidedtrack.com](https://guidedtrack.com) to edit and manage programs, download CSV files, modify service settings, etc.
