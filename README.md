@@ -5,7 +5,7 @@
 Agents using the skill should be able to:
 
 - write GT programs in local `.gt` files
-- run [`gtlint`](https://github.com/jrc03c/gtlint) to lint and format `.gt` files
+- run [`gtlint`](https://github.com/jrc03c/gtlint) to lint and format local `.gt` files
 - drive a web browser to create, run, and debug programs on [guidedtrack.com](https://guidedtrack.com)
 
 > **NOTE:** ⚠️ This skill has been developed for and exclusively tested with Claude Code, and this documentation reflects that fact. Apologies for the lack of guidance for non-Claude-Code users.
@@ -22,3 +22,9 @@ Run these slash-commands in a Claude Code session:
 # Usage
 
 To load the skill, simply mention "GuidedTrack" in conversation with Claude, or use the `/guidedtrack-skill` slash-command.
+
+# Roadmap
+
+Features we'd like to include in the future:
+
+- We'd ideally like to cut out the browser "middle-man" and instead issue HTTP requests directly to [guidedtrack.com](https://guidedtrack.com) to edit and manage programs, download CSV files, modify service settings, etc.
