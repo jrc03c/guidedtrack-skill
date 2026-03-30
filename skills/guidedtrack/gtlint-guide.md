@@ -9,7 +9,7 @@ GTLint is a linter and formatter for GuidedTrack, inspired by ESLint and Prettie
 
 ## Installation
 
-GTLint is published as `@jrc03c/gtlint` on npm. There is also a local copy at `tools/gtlint` in this monorepo.
+GTLint is published as `@jrc03c/gtlint` on npm.
 
 ### Check if already installed
 
@@ -29,19 +29,6 @@ npm install -g @jrc03c/gtlint
 npm install --save-dev @jrc03c/gtlint
 ```
 
-### Use the local monorepo copy (fallback)
-
-If npm install fails or is undesirable, use the local copy directly:
-
-```bash
-node /path/to/tools/gtlint/bin/gtlint.js lint program.gt
-```
-
-The local copy may need to be built first:
-
-```bash
-cd /path/to/tools/gtlint && npm install && npm run build
-```
 
 ## Usage
 

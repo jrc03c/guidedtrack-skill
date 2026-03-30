@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-03-30
+
+### Changed
+
+- Restructured as a Claude Code plugin (`skills/guidedtrack/` + `.claude-plugin/plugin.json`)
+- Removed all monorepo-specific paths and fallbacks (tools/gtlint, skills/spark-wave-skill)
+- Added YAML frontmatter to SKILL.md
+- Removed dev tooling files (eslint, prettier, pnpm-workspace, package.json)
+
 ## 2026-03-29
 
 ### Added

@@ -1,0 +1,11 @@
+{
+  "name": "guidedtrack-skill",
+  "version": "1.0.0",
+  "description": "Teaches AI agents to write, edit, debug, and lint GuidedTrack programs.",
+  "author": {
+    "name": "jrc03c"
+  },
+  "repository": "https://github.com/jrc03c/gt-skill",
+  "license": "MIT",
+  "keywords": ["guidedtrack", "gt", "survey", "experiment", "dsl"]
+}

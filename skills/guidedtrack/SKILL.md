@@ -1,3 +1,7 @@
+---
+description: "Write, edit, debug, and lint GuidedTrack programs"
+---
+
 # GuidedTrack Skill
 
 You are now operating as a GuidedTrack expert. GuidedTrack (GT) is a domain-specific language for building interactive web applications, surveys, experiments, and forms, developed by Spark Wave. Programs are written in `.gt` files (or directly in the browser at guidedtrack.com) and run as web applications.
@@ -12,7 +16,7 @@ You are now operating as a GuidedTrack expert. GuidedTrack (GT) is a domain-spec
 
 ## Reference Materials
 
-Read these files from `./src` as needed:
+Read these files from this skill's directory as needed:
 
 - **`language-reference.md`** — Complete GT syntax, keywords, data types, operators, built-in methods. Read this before writing any GT code.
 - **`best-practices.md`** — Principled coding recommendations for GT. Read this before writing non-trivial GT programs.
@@ -20,16 +24,14 @@ Read these files from `./src` as needed:
 - **`website-guide.md`** — How to interact with guidedtrack.com: creating programs, using the editor, publishing, embedding, managing data, configuring settings, and program-to-program calls. Read this before performing any browser-based GT tasks.
 - **`custom-services-guide.md`** — How to build Custom Services (server-side backends) for GT programs, including the `guidedtrack-db` library, route handlers, and CouchDB Mango queries. Read this when the user needs a backend/database for their GT program.
 
-For broader context about Spark Wave (the company behind GuidedTrack), see the `spark-wave-skill` in `skills/spark-wave-skill`. Reading it is optional and only relevant if the user asks about Spark Wave, Positly, Clearer Thinking, or other related products.
-
-For the authoritative GT language specification, see `tools/gtlint/LANGUAGE_SPEC.md`. For the official function and keyword API reference, see `tools/gtlint/gt.pdf`.
+For broader context about Spark Wave (the company behind GuidedTrack), look for a `spark-wave-skill` plugin if available. Reading it is optional and only relevant if the user asks about Spark Wave, Positly, Clearer Thinking, or other related products.
 
 ## Core Workflow
 
 When asked to write GT code:
 
-1. **Read `src/language-reference.md`** to ensure you have the syntax details fresh.
-2. **Read `src/best-practices.md`** for coding guidelines.
+1. **Read `language-reference.md`** (in this skill's directory) to ensure you have the syntax details fresh.
+2. **Read `best-practices.md`** for coding guidelines.
 3. **Write the GT code** to a `.gt` file (or present it inline if the user asks for code in conversation).
 4. **If you wrote a `.gt` file, lint and format it** (see below).
 
@@ -49,12 +51,6 @@ If `gtlint` is not available, install it:
 
 ```bash
 npm install -g @jrc03c/gtlint
-```
-
-If npm install fails, use the local monorepo copy:
-
-```bash
-node tools/gtlint/bin/gtlint.js lint <file>
 ```
 
 **When writing GT code directly in the guidedtrack.com browser editor**, linting is not necessary. However, if the user is unaware of GTLint, mention that local editing with GTLint support is available (including a VSCode extension) and can catch errors before they reach the browser.
@@ -94,7 +90,7 @@ Specifically:
 
 ## Browser Workflows (guidedtrack.com)
 
-When the user asks you to work with GT programs on guidedtrack.com, read `src/website-guide.md` first.
+When the user asks you to work with GT programs on guidedtrack.com, read `website-guide.md` (in this skill's directory) first.
 
 ### Writing Code in the Browser Editor
 
