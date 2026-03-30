@@ -8,7 +8,7 @@ Agents using the skill should be able to:
 - run [`gtlint`](https://github.com/jrc03c/gtlint) to lint and format `.gt` files
 - drive a web browser to create, run, and debug programs on [guidedtrack.com](https://guidedtrack.com)
 
-> **NOTE:** ⚠️ This skill has been developed for and exclusively tested with Claude Code. All subsequent documentation assumes that you're using Claude Code.
+> **NOTE:** ⚠️ This skill has been developed for and exclusively tested with Claude Code, and this documentation reflects that fact. Apologies for the lack of guidance for non-Claude-Code users.
 
 # Installation
 
@@ -21,4 +21,4 @@ Run these slash-commands in a Claude Code session:
 
 # Usage
 
-To load the skill, simply mention GuidedTrack in conversation with Claude, or use the `/guidedtrack-skill` slash-command. Then tell Claude what you want done.
+To load the skill, simply mention "GuidedTrack" in conversation with Claude, or use the `/guidedtrack-skill` slash-command.
