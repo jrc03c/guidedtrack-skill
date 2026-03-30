@@ -1,0 +1,16 @@
+{
+  "name": "guidedtrack-skill",
+  "owner": {
+    "name": "jrc03c"
+  },
+  "metadata": {
+    "description": "An AI coding agent skill for creating, running, and debugging GuidedTrack programs."
+  },
+  "plugins": [
+    {
+      "name": "guidedtrack-skill",
+      "source": ".",
+      "description": "An AI coding agent skill for creating, running, and debugging GuidedTrack programs."
+    }
+  ]
+}
