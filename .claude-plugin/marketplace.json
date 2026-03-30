@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "guidedtrack-skill",
-      "source": ".",
+      "source": "./",
       "description": "An AI coding agent skill for creating, running, and debugging GuidedTrack programs."
     }
   ]
