@@ -106,7 +106,7 @@ Use `\t` for tab characters in the template literal. Save afterward with Ctrl-S.
 
 ### Key Browser Concepts
 
-- **Run vs Preview**: Run (`/run`) generates real data. Preview (`/preview`) and Split/Debug (`/debug`) do not.
+- **Run vs Preview vs Debug**: Run (`/run`) generates real data (marked "data"). Split/Debug (`/debug`) generates test data (marked "test", excluded from analysis by default). Preview (`/preview`) does not generate any data.
 - **Two ID formats**: Programs have a numeric ID (used in edit/settings URLs) and a short alphanumeric ID (used in run/publish URLs).
 - **Embedding requires a URL whitelist**: After pasting embed code, the embedding page's URL must be registered on the Publish page.
 - **Services are configured in Settings, not code**: The `*service:` name in GT code must match a service configured in Settings > Services.

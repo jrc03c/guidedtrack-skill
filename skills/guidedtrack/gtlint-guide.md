@@ -200,8 +200,8 @@ These directives tell the linter about variables that are defined or used outsid
 | `no-empty-blocks` | error | Keyword with no body |
 | `no-stray-colon` | error | Stray `:` in expressions |
 | `no-inline-argument` | error | Invalid inline argument |
-| `required-subkeywords` | error | Missing required sub-keywords |
-| `goto-needs-reset-in-events` | warn | `*goto:` without `*reset:` in events |
+| `required-subkeywords` | error | Missing required sub-keywords (note: does not enforce `*save:` on questions — that is a best practice, not a linter requirement) |
+| `goto-needs-reset-in-events` | warn | `*goto:` without `*reset:` in events (note: currently non-functional in v0.15.0 because `valid-sub-keyword` does not recognize `*events` block children, causing a parse error before this rule can run) |
 | `purchase-subkeyword-constraints` | error | Invalid purchase sub-keyword combos |
 
 ## Output Examples

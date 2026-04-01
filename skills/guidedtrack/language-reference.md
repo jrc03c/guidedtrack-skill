@@ -146,7 +146,9 @@ Answer options can have indented blocks that execute when selected:
 
 `*save:`, `*type:`, `*default:`, `*placeholder:`, `*tip:`, `*min:`, `*max:`, `*blank`, `*shuffle`, `*other`, `*multiple`, `*confirm`, `*searchable`, `*throwaway`, `*countdown:`, `*tags:`, `*answers:`, `*before:`, `*after:`, `*classes:`, `*icon:`, `*image:`
 
-**Note**: Questions are required by default. Use `*blank` to make a question optional (skippable). There is no `*required` sub-keyword for questions.
+**Notes**:
+- Questions are required by default. Use `*blank` to make a question optional (skippable). There is no `*required` sub-keyword for questions.
+- `*min:` and `*max:` are only valid for `slider` type questions. Using them on other question types (including `number`) causes a compilation error.
 
 ### Dynamic Answer Lists with `*answers:`
 

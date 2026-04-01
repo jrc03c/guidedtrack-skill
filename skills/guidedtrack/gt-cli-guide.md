@@ -48,7 +48,7 @@ Set `GT_ENV` to target different servers:
 gt init
 ```
 
-Scans the current directory for `.gt` files and interactively links each one to a program on the server (by title, ID, or key). Creates `gt.config.json`:
+Scans the current directory for `.gt` files and interactively links each one to a program on the server (by title, ID, or key). This command requires interactive terminal input, so it cannot be used in non-interactive contexts. As an alternative, you can create `gt.config.json` manually (see format below) using the program ID from `gt program find` or `gt program get`. Creates `gt.config.json`:
 
 ```json
 {
@@ -85,6 +85,8 @@ gt push --only my-program
 # Push and build (compile) afterward
 gt push --build
 ```
+
+**Note**: `gt push --build` may fail with a 404 if the config key doesn't match the program's short key. If this happens, push and build separately: `gt push && gt program build <name>`.
 
 ### Pull server source to local files
 

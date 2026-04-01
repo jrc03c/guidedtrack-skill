@@ -6,6 +6,14 @@
 
 - `skills/guidedtrack/gt-cli-guide.md` — Guide for the `gt` CLI tool (push, pull, create, build, program management, raw API requests)
 
+### Fixed (from rigorous cross-facet testing)
+
+- `SKILL.md` — Corrected Run vs Preview vs Debug description: Debug/Split generates test data (marked "test"), not no data
+- `language-reference.md` — Clarified that `*min:` and `*max:` are only valid for `slider` type questions (not `number`)
+- `website-guide.md` — Distinguished editor hamburger menu from dashboard card dropdown menu (different items); added URL patterns for History and Duplicate; noted Delete is dashboard-only
+- `gtlint-guide.md` — Documented that `goto-needs-reset-in-events` rule is non-functional in v0.15.0 due to `*events` parsing issue; clarified `required-subkeywords` does not enforce `*save:` on questions
+- `gt-cli-guide.md` — Documented `gt push --build` 404 bug workaround; noted `gt init` requires interactive terminal input with manual config alternative
+
 ## 2026-03-30
 
 ### Changed

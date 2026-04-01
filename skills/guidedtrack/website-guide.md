@@ -15,7 +15,7 @@ The main dashboard shows:
 - **"+ New program"** button and **"Hire an Expert"** button
 - Search bar for filtering programs
 - Each program card shows: name, created/updated dates, description, and action buttons (Edit, Preview, Data, Recruit Participants)
-- Three-dot menu on each card for additional actions
+- Three-dot menu on each card for: Edit Description, Duplicate, Data, Recruit Participants, Run, Publish, Settings, Delete
 
 ## Creating a New Program
 
@@ -67,7 +67,7 @@ Use `\t` for tab indentation in the template literal. After setting code, save w
 
 ## Program Navigation Menu
 
-Click the **hamburger menu** (≡) in the top-right, or use the top nav bar on non-edit pages:
+Click the **hamburger menu** (≡) in the top-right of the editor:
 
 | Menu item | URL pattern | Purpose |
 |-----------|------------|---------|
@@ -76,11 +76,12 @@ Click the **hamburger menu** (≡) in the top-right, or use the top nav bar on n
 | Data | `/programs/{id}/summary` | Response data and analytics |
 | Settings | `/programs/{id}/settings/access` | Program configuration |
 | Recruit Participants | — | Links to Positly for participant recruitment |
-| History | — | Version history |
+| History | `/programs/{short_id}/versions` | Version history |
 | Run | `/programs/{short_id}/run` | Run the program live (generates real data) |
-| Duplicate | — | Copy the program |
+| Duplicate | `/programs/{id}/duplicate` | Copy the program |
 | Download code | — | Download the `.gt` source file |
-| Delete | — | Delete the program |
+
+**Note**: The dashboard card's three-dot menu has a different set of items (includes Delete but not History or Download code).
 
 **Note**: Programs have two ID formats:
 - **Numeric ID** (e.g., `36778`): Used in edit, settings, and data URLs
