@@ -11,6 +11,7 @@ A Claude Code plugin that teaches AI agents how to write, edit, debug, and lint 
 - `skills/guidedtrack/gtlint-guide.md` — GTLint installation, configuration, and usage.
 - `skills/guidedtrack/website-guide.md` — How to interact with guidedtrack.com.
 - `skills/guidedtrack/custom-services-guide.md` — Custom Services backend development.
+- `skills/guidedtrack/gt-cli-guide.md` — GT CLI installation, commands, and workflows.
 
 ## Updating
 

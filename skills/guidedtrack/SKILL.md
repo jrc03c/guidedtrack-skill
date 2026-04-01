@@ -23,6 +23,7 @@ Read these files from this skill's directory as needed:
 - **`gtlint-guide.md`** — How to install, configure, and run GTLint. Read this before linting or formatting.
 - **`website-guide.md`** — How to interact with guidedtrack.com: creating programs, using the editor, publishing, embedding, managing data, configuring settings, and program-to-program calls. Read this before performing any browser-based GT tasks.
 - **`custom-services-guide.md`** — How to build Custom Services (server-side backends) for GT programs, including the `guidedtrack-db` library, route handlers, and CouchDB Mango queries. Read this when the user needs a backend/database for their GT program.
+- **`gt-cli-guide.md`** — How to use `gt`, the CLI tool for pushing, pulling, creating, building, and managing GT programs from the terminal. Read this when the user wants to sync local `.gt` files with the server or manage programs without the browser.
 
 For broader context about Spark Wave (the company behind GuidedTrack), look for a `spark-wave-skill` plugin if available. Reading it is optional and only relevant if the user asks about Spark Wave, Positly, Clearer Thinking, or other related products.
 

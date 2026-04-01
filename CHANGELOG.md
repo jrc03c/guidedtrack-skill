@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-04-01
+
+### Added
+
+- `skills/guidedtrack/gt-cli-guide.md` — Guide for the `gt` CLI tool (push, pull, create, build, program management, raw API requests)
+
 ## 2026-03-30
 
 ### Changed
